@@ -1,3 +1,8 @@
+# Custom added by LSS
+git_remote/*
+runs/*
+wandb/*
+
 # Custom added
 examples/**/datasets/
 examples/**/output/

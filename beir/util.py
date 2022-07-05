@@ -79,6 +79,7 @@ def unzip(zip_file: str, out_dir: str):
 
 def download_and_unzip(url: str, out_dir: str, chunk_size: int = 1024) -> str:
     
+    #chmod_setting = 0o777 #sudo mode(0777)
     os.makedirs(out_dir, exist_ok=True)
     dataset = url.split("/")[-1]
     zip_file = os.path.join(out_dir, dataset)
