@@ -1,5 +1,6 @@
 # Custom added by LSS
 git_remote/*
+datasets/*
 runs/*
 wandb/*
 
